@@ -3,12 +3,12 @@ applications:
 - name: acme-financial-back-office-microservice
   memory: 512M
   instances: 1
-  host: acme-financial-back-office-microservice
+  host: acme-financial-back-office-microservice-nbcu
   path: build/libs/acme-financial-back-office-microservice-1.0.0.jar
   services:
     - rabbitmq_stream
   env:
     SPRING_PROFILES_ACTIVE: cloud
     DEBUG: "true"
-    SERVICE3_ADDRESS: acme-financial-account-microservice.cfapps.io
-    SERVICE4_ADDRESS: acme-financial-customer-microservice.cfapps.io
+    SERVICE3_ADDRESS: acme-financial-account-microservice-nbcu.apps.runitinthecloudfor.me
+    SERVICE4_ADDRESS: acme-financial-customer-microservice-nbcu.apps.runitinthecloudfor.me

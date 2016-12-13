@@ -10,4 +10,4 @@ applications:
   env:
     SPRING_PROFILES_ACTIVE: cloud
     DEBUG: "true"
-    SERVICE2_ADDRESS: acme-financial-back-office-microservice.cfapps.io
+    SERVICE2_ADDRESS: acme-financial-back-office-microservice-nbcu.apps.runitinthecloudfor.me

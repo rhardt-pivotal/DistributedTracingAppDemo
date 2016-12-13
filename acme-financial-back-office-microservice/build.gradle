@@ -1,3 +1,6 @@
 dependencies {
-	compile 'com.github.tomakehurst:wiremock:2.0.10-beta'
+	compile 'com.github.tomakehurst:wiremock:2.4.1'
+	compile 'org.eclipse.jetty:jetty-server'
+	compile 'org.eclipse.jetty:jetty-servlets'
+	compile 'org.eclipse.jetty:jetty-servlet'
 }
